@@ -1,0 +1,44 @@
+.calculator-App{
+    display: flex;
+    color: black;
+    border-radius: 10px;
+}
+.calc-input{
+    padding: 20px;
+    border-radius: 10px;
+}
+.calc-output{
+    padding: 20px;
+    border-radius: 10px;
+}
+input{
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: black;
+}
+.input-field{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table,thead,th,tbody{
+    padding: 10px;
+}
+th{
+    background-color:cornflowerblue;
+}
+tr:nth-child(even){
+    background-color:rgb(236, 236, 236);
+}
+td{
+    padding: 2px;
+}
